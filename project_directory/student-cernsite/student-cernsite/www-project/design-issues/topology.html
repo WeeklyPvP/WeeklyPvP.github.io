@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>HyperText Design Issues: Topology</title>
+    <!-- Pico CSS -->
+    <link rel="stylesheet" href="../../assets/css/cernsite-base.css">
+    <link rel="stylesheet" href="../../assets/css/cernsite-page.css">
+</head>
+<body>
+
+<header>
+    <h1>Topology</h1>
+    <hr class="title-rule">
+    <nav aria-label="breadcrumb"><ul><li><a href="../../index.html">Home</a></li><li><a href="../www-project-overview.html">WWW Project</a></li><li><a href="overview.html">Design Issues</a></li><li>Topology</li></ul></nav>
+</header>
+
+<main id="main-content">
+
+<p class="page-intro">Here are a few questions about the underlying connectivity of a hypertext web.</p>
+
+<section>
+    <h2>Are links two- or multi-ended?</h2>
+    <p>The term "link" normally indicates two ends. Variations include links with multiple sources and/or destinations, and constructs which relate more than two anchors. From now on, let us restrict ourselves to links in the conventional sense — that is, with two ends.</p>
+</section>
+
+<section>
+    <h2>Should the links be monodirectional or bidirectional?</h2>
+    <p>If they are bidirectional, a link always exists in the reverse direction. A disadvantage is that it might constrain the author. However, an advantage is that bidirectional linking allows the system to deduce the inverse relationship — that if A includes B, for example, that B is part of A. This effectively adds information for free.</p>
+    <p>KMS and HyperCard have one-way links; Enquire has two-way links.</p>
+    <p>There is a question of how one can make a two-way link to a protected database. It may be useful to have bidirectional links from the point of view of managing data — for example, if a document is destroyed or moved, one is aware of what dangling links will be created. See <a href="building-back-links.html">Building Back-links</a>.</p>
+</section>
+
+<section>
+    <h2>Should anchors have more than one link?</h2>
+    <p>It seems reasonable for many anchors to lead to the same reference. If one source anchor leads to more than one destination anchor, there will be ambiguity if the anchor is clicked. This could be resolved by providing a menu, but that would complicate the interface. A many-to-one mapping is therefore suggested. JFG disagrees and would like to see a small menu for ambiguous links — Microcosm does this.</p>
+</section>
+
+<section>
+    <h2>Should links be typed?</h2>
+    <p>A typed link carries semantic information, which allows the system to manage data more efficiently. A default type ("untyped") normally exists when types are implemented. Link typing helps with generation of graphical overviews and automatic tracing. (Should a link be allowed to have many types? — JFG. I don't think so: that should be represented by more than one link. — <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">TBL</a>)</p>
+</section>
+
+<section>
+    <h2>Should links contain ancillary information?</h2>
+    <p>Does the system allow dating, versioning, authorship, or comment text on a link? This sort of information complicates the issue, in that readable information is no longer carried within node contents only. Information about the link can always be put in the source node, or in an intermediate node such as an annotation.</p>
+</section>
+
+<section>
+    <h2>Should a link contain Preview information?</h2>
+    <p>This is information stored at the source to allow the reader to check whether to follow a link before going. The system may cache some data (such as the target node title), but it is not necessary to include preview information just because access may be slow. Caching should be done instead of corrupting the user interface.</p>
+</section>
+
+</main>
+
+<footer>
+    <hr>
+    <p><small><a href="#">&#8592; Your GitHub Pages Home</a></small></p>
+</footer>
+</body>
+</html>
