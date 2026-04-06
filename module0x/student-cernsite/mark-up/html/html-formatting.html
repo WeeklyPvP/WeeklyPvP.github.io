@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Hypertext HTML formatting example</title>
+    <!-- Pico CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Site styles -->
+    <link rel="stylesheet" href="../../assets/css/cernsite-base.css">
+    <link rel="stylesheet" href="../../assets/css/cernsite-page.css">
+</head>
+<body>
+
+<header>
+    <h1>Markup Samples</h1>
+    <hr class="title-rule">
+    <nav aria-label="breadcrumb"><ul><li><a href="../../index.html">Home</a></li><li><a href="../markup.html">Mark-up</a></li><li>HTML Formatting</li></ul></nav>
+</header>
+
+<main id="main-content">
+
+<p class="page-intro">This is an example bit of hypertext - compare the formatted version with the original HTML source. Let's try introducing an initial paragraph between the H1 and the H2 headings.</p>
+
+<section>
+    <h2>Introduction</h2>
+    <p>This file contains a test set of HTML mark-up, as a test of hypertext browsers and an example of the syntax of the tags. See also:</p>
+    <ul>
+        <li><a href="#">An arbitrary news article</a></li>
+        <li><a href="news:alt.hypertext">The newsgroup on hypertext</a></li>
+        <li><a href="../../www-project/index.html">More details about the WWW project.</a></li>
+    </ul>
+</section>
+
+<section>
+    <h2>Some anchors</h2>
+    <p>Anchors come in two forms: whole nodes or parts of nodes. The line mode browser can't currently (Nov 91) jump to a part of a node: it always jumps to the top.</p>
+
+    <h3>Leading to whole nodes</h3>
+    <p>Here is an anchor which leads to the VM FIND command. Note the nested highlighting (hp2) within the anchor. If you want to click on this, you will go to the system default page.</p>
+
+    <h3>Leading to anchors within nodes</h3>
+    <p>Now THIS leads to anchor #2 in this file, and if you want to click on THIS, you should go to the system default page with anchor #2 selected.</p>
+    <p>Now the word "destination" is a named destination anchor, connected to the word "source". Clicking on the destination shouldn't do anything. Selecting the source should lead to the destination.</p>
+</section>
+
+<section>
+    <h2>Tag Overview</h2>
+    <p>Now let's go through the limited set of markup tags which we accept.</p>
+    <p>The title, "Hypertext HTML formatting example" was between TITLE tags.</p>
+    <p>"Test Dataset" at the top of this page was a Level One Heading (H1).</p>
+    <p>The quick brown fox jumps over the lazy dog. In Hertford, Hereford and Hampshire, hurricanes hardly happen.</p>
+
+    <h3>Level two heading</h3>
+    <p>Here is some text which follows the heading. The quick brown fox jumps over the lazy dog. In Hertford, Hereford and Hampshire, hurricanes hardly happen.</p>
+
+    <h4>Level 3 heading</h4>
+    <p>Here is some text which follows the heading. The quick brown fox jumps over the lazy dog. In Hertford, Hereford and Hampshire, hurricanes hardly happen.</p>
+    <p>This is a test paragraph. It is separated from the previous one by a P paragraph mark.</p>
+    <p>This new paragraph was separated from the previous one by a blank line. We have included in HTML some tags from the SGML tagset used at and once supported at CERN. The HTML parser will ignore tags which it does not understand.</p>
+</section>
+
+<section>
+    <h2>Example: Monospaced Font</h2>
+    <p>Now for an example section, in monospaced font:</p>
+    <pre>_-_
+[o,o]
+\-/
+This text is laid out using fixed-width characters</pre>
+    <p>It uses the XMP tag, and can contain embedded &lt; and &gt; signs.</p>
+</section>
+
+<section>
+    <h2>Glossary</h2>
+    <p>Now let us try out a glossary. A glossary has a large hanging indent aligned with a first tab stop.</p>
+    <dl>
+        <dt>Glossary</dt>
+        <dd>A list of definitions of terms. Each term is given in a left-hand column, with a longer textual definition being given in a right-hand column.</dd>
+        <dt>Term</dt>
+        <dd>A word or phrase being defined.</dd>
+        <dt>Definition</dt>
+        <dd>A sentence or sentences which define the term. The definition can wrap around in the second column, but the term cannot wrap around in the second column.</dd>
+    </dl>
+</section>
+
+<section>
+    <h2>Unordered List</h2>
+    <p>And after that dazzling display of formatting, how about an unordered list:</p>
+    <ul>
+        <li>This is the first element of an unordered list</li>
+        <li>This is the 2nd element of an unordered list</li>
+        <li>This is the 3rd element of an unordered list</li>
+        <li>This is the 4th element of an unordered list</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Menu Section</h2>
+    <p>Now let's try a "MENU" section. It's the same as a list but intended for single-line sized entities, not too spaced out. It could be a browser panel.</p>
+    <ul>
+        <li>This is the first element of a menu</li>
+        <li>This is the 2nd element of a menu</li>
+        <li>This is the 3rd element of a menu</li>
+        <li>This is the 4th element of a menu</li>
+    </ul>
+</section>
+
+<p>This is the end of the test file.</p>
+
+</main>
+
+
+<footer>
+    <hr>
+    <p><small><a href="https://weeklypvp.github.io/">&#8592; Your GitHub Pages Home</a></small></p>
+</footer>
+</body>
+</html>

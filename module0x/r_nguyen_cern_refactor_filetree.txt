@@ -1,0 +1,51 @@
+ite170/
+┣ assignments/
+┃ ┗ project_directory/
+┣ coderlab/
+┃ ┗ lab1a_build_workspace/
+┃   ┣ assets/
+┃ ┃ ┃ ┣ graphics/
+┃ ┃ ┃ ┃ ┗ information technology.png
+┃ ┃ ┃ ┗ icon/
+┃ ┃ ┃   ┗ logo.png
+┃   ┣ docs/
+┃ ┃ ┃ ┗ r_nguyen_directory_tree.txt
+┃   ┣ styles/
+┃   ┣ index.html
+┃   ┗ r_nguyen_index.txt
+┣ projects/
+┃ ┗ project_directory/
+┃   ┗ module0x/
+┃ ┃   ┣ starter-files/
+┃ ┃ ┃ ┃ ┣ demo-timetable.txt
+┃ ┃ ┃ ┃ ┣ html-formatting.txt
+┃ ┃ ┃ ┃ ┣ html-tags.txt
+┃ ┃ ┃ ┃ ┣ hypertext-history.txt
+┃ ┃ ┃ ┃ ┣ notation.txt
+┃ ┃ ┃ ┃ ┣ topology.txt
+┃ ┃ ┃ ┃ ┣ www-project-history.txt
+┃ ┃ ┃ ┃ ┗ www-project-index.txt
+┃ ┃   ┗ student-cernsite/
+┃ ┃ ┃   ┣ about/
+┃ ┃ ┃   ┣ assets/
+┃ ┃ ┃   ┣ book/
+┃ ┃ ┃   ┣ community/
+┃ ┃ ┃   ┣ hypertext/
+┃ ┃ ┃   ┣ mark-up/
+┃ ┃ ┃   ┣ protocols/
+┃ ┃ ┃   ┣ references/
+┃ ┃ ┃   ┣ resources/
+┃ ┃ ┃   ┣ software/
+┃ ┃ ┃   ┣ standards/
+┃ ┃ ┃   ┣ support/
+┃ ┃ ┃   ┣ technical/
+┃ ┃ ┃   ┣ tools/
+┃ ┃ ┃   ┣ www-project/
+┃ ┃ ┃   ┗ index.html
+┗ WeeklyPvP.github.io/
+  ┣ assets/
+┃ ┃ ┣ graphics/
+┃ ┃ ┗ icon/
+┃ ┃   ┗ logo.png
+  ┣ styles/
+  ┗ index.html
